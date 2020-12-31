@@ -1,0 +1,16 @@
+@import "nav.css";
+@import "background.css";
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ol{
+    list-style: decimal;
+}
+
+ul{
+    margin-left: 15px;
+}

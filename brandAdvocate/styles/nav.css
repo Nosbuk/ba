@@ -1,0 +1,57 @@
+.navbar{
+    background-color: rgba(0, 0, 0, 0.15);
+    color: white;
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-button{
+    padding:  0.3rem 1.5rem;
+}
+
+.page{
+    display: none;
+    width: 95%;
+    height: 85%;
+    margin-top: 25px;
+}
+
+.cocon{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar{
+    background-color: rgba(207, 203, 208, 0.9);
+    padding: 20px;
+    width:15%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.side{
+    margin: 5%;
+}
+
+.content{
+    background-color: white;
+    padding: 20px;
+    width: 85%;
+    margin: 0;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    display: none;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.content > video{
+    align-self: center;
+}
